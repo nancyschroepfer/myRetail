@@ -29,14 +29,14 @@
   * In Postman, select Post to add data
   * Enter localhost:8080/product/add next to Post
   * Select Body, raw (radio button), and JSON(application/json)
-  * Copy and paste the following, and then hit send
+  * Copy and paste the following, and then hit send<br/>
     {"id":15117729, "name":"The Big Lebowski (Blu-ray)(Widescreen)", "currentPrice":{"value":150, "currencyCode":"USD"}}
   * After sending the json body, you should see status shown as 200 OK and the response below
-  * You can add more data if interested:
-    {"id":16483589, "name":"Black+Becker Microwave", "currentPrice":{"value":50, "currencyCode":"USD"}}
-    {"id":16696652, "name":"Threshold 1 Set of Diningware", "currentPrice":{"value":25, "currencyCode":"USD"}}
-    {"id":15643793, "name":"Tropicana Orange Juice", "currentPrice":{"value":2.5, "currencyCode":"USD"}}
-    {"id":16483999, "name":"Threshold 6ft futon", "currentPrice":{"value":350, "currencyCode":"USD"}}  
+  * You can add more data if interested:<br/>
+    {"id":16483589, "name":"Black+Becker Microwave", "currentPrice":{"value":50, "currencyCode":"USD"}}<br/>
+    {"id":16696652, "name":"Threshold 1 Set of Diningware", "currentPrice":{"value":25, "currencyCode":"USD"}}<br/>
+    {"id":15643793, "name":"Tropicana Orange Juice", "currentPrice":{"value":2.5, "currencyCode":"USD"}}<br/>
+    {"id":16483999, "name":"Threshold 6ft futon", "currentPrice":{"value":350, "currencyCode":"USD"}}<br/>
 
 ### Testing
   * Run the JUnit tests found in the test folder
